@@ -189,7 +189,7 @@ body {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 23.4375em) {
+@media (max-width: 36.875em) {
 	body {
 		padding: 1.5rem;
 	}
@@ -198,11 +198,7 @@ body {
 	}
 }
 
-@media (min-width: 23.5em) and (max-width: 70em) {
-	.card {
-		width: 37.5rem;
-	}
-
+@media (min-width: 40em) and (max-width: 70em) {
 	.card__img img {
 		width: 100%;
 		height: auto;
@@ -210,6 +206,22 @@ body {
 
 	.card__content {
 		text-align: center;
+	}
+
+	.card__title {
+		font-size: 4rem;
+	}
+
+	.card__desc {
+		font-size: 2rem;
+	}
+
+	.card__rating--number {
+		font-size: 3rem;
+	}
+
+	.card__rating--desc {
+		font-size: 1.4rem;
 	}
 }
 
